@@ -1,5 +1,14 @@
-<?php wp_head(); ?>
+<?php 
+/**
+ * Index File
+ */
+?>
 <div class="content">
-    <?php echo get_theme_file_uri('/header.php'); ?>
+    <?php get_header(); ?>
+    <?php get_template_part('/header'); ?>
+    <?php get_template_part('/footer'); ?>
 </div>
-<?php wp_footer(); ?>
+
+
+
+<?php get_footer(); ?>
