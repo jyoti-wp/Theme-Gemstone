@@ -8,29 +8,31 @@
     <title>Theme GEMSTONE</title>
 </head>
 <body>
-    <div class="header-main">
-        <div class="header-container">
-            <div class="header-logo float-left">
-                <img src="<?php ?>" alt="">
-            </div>
-        </div>
-        <div class="site-header-menu group">
-          <nav class="main-navigation">
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Pages</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#"></a></li>
-            </ul>
-          </nav>
-          <div class="site-header__util">
-            <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
-            <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
-            <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-          </div>
+<header class="main">
+  <div class="header-main">
+    <div class="header-container">
+        <div class="header-logo float-left">
+            <img src="<?php ?>" alt="">
         </div>
     </div>
+    <div class="site-header-menu">
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </nav>
+      <div class="site-header">
+        <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
+        <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
+        <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+</header>
 
 
 
