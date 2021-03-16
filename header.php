@@ -8,11 +8,11 @@
     <title>Theme GEMSTONE</title>
 </head>
 <body>
-<header class="main">
+<section class="header">
   <div class="header-main">
     <div class="header-container">
         <div class="header-logo float-left">
-            <img src="<?php ?>" alt="">
+            <img src="<?php get_theme_file_uri()?>" alt="">
         </div>
     </div>
     <div class="site-header-menu">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-</header>
+</section>
 
 
 
