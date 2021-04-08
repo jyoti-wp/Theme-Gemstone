@@ -25,7 +25,8 @@ add_action('wp_enqueue_scripts', 'gemstone_files');
 
 function wpb_add_google_fonts() {
 
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Heebo&display=swap', false );
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap', false );
 }
 
 
