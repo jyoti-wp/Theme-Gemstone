@@ -1,6 +1,57 @@
-header {
+.header {
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .nav {
+    position: fixed;
+    background: cadetblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav .active {
+    background: white;
+    color: cadetblue;
+    box-shadow: 0 3px 10 rgba(0, 0, 0, 0.3);
+  }
+
+  .nav .active a {
+    color: gray;
+  }
+
+  .nav .active .container {
+    padding: 15px;
+  }
+
+  .nav a.current,
+  .nav a:hover {
+    color: gold;
+    font-weight: bolder;
+  }
+
+  .nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav a {
+    color: white;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
   }
 }
