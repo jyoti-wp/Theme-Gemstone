@@ -17,13 +17,6 @@ function gemstone_files() {
     wp_enqueue_style('main-css', GEMSTONE_BUILD_URI . '/css/main.css', false, '1.1', 'all');
 }
 
-// echo(GEMSTONE_BUILD_URI . 'assets/build/css/main.css');
-// wp_die();
-// echo get_template_directory_uri();
-// wp_die();
-
-
-
 add_action('wp_enqueue_scripts', 'gemstone_files');
 
                         // google font 

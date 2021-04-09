@@ -12,7 +12,7 @@
 <div class="header">
   <nav class="nav">
     <div class="container">
-      <h1 class="logo"> <a href="/font-page.php">Theme Gemstone</a></h1>
+      <h1 class="logo"> <a href="/front-page">Theme Gemstone</a></h1>
       <ul>
         <li><a href="#" class="current">Home</a></li>
         <li><a href="">About Us</a></li>
@@ -22,7 +22,7 @@
       </ul>
     </div>
   </nav>
-</div>
+</div>  
 
 
 
