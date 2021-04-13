@@ -13,7 +13,7 @@ if ( ! defined( 'GEMSTONE_BUILD_URI' ) ) {
 
 function gemstone_files() {
     wp_enqueue_style('gemstone_main_style', get_stylesheet_uri());
-    wp_enqueue_style('main-js', GEMSTONE_BUILD_URI . '/js/main.js', ['jquery', 'slick-js'], '1.1', true);
+    wp_enqueue_script('main-js', untrailingslashit( get_template_directory_uri()) . '/assets/src/js/main.js', [], '1.1', true);
     wp_enqueue_style('main-css', GEMSTONE_BUILD_URI . '/css/main.css', false, '1.1', 'all');
 }
 
