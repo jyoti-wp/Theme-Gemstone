@@ -3,7 +3,7 @@
 
 ?>
 
-<div class="hero-carousel">
+<div class="hero-slider">
     <div class="image-container" id="images">
     
     </div>
